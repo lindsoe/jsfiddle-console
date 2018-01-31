@@ -40,7 +40,7 @@
 
     window.console.clear = clear;
     window.console.error = write('error', '#ff0000');
-    window.console.log = write('log');
+    window.console.log = write('log', '#ffffff');
     window.console.info = write('info');
     window.console.debug = write('debug');
 
