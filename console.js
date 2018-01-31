@@ -26,7 +26,7 @@
 
     function message (text, color, $message) {
         $message = document.createElement('p');
-        $message.style.color = color || '#000000';
+        $message.style.color = color || '#FFFFFF';
         $message.innerText = text;
         return $message;
     }
